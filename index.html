@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Simple Calculator</h1>
+    <div id='calc-contain'>
+
+          <form name="calculator">
+
+            <input type="text" name="answer" id="answer" readonly/>
+            <br>
+
+            <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+            <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+            <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+            <input type="button" value=" + " class = "custome" onclick="calculator.answer.value += '+'" />
+            <br/>
+
+            <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+            <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+            <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+            <input type="button" value=" - " class = "custome" onclick="calculator.answer.value += '-'" />
+            </br>
+
+            <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+            <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+            <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+            <input type="button" value=" x " class = "custome" onclick="calculator.answer.value += '*'" />
+            </br>
+
+            <input type="button" value=" c " onclick="calculator.answer.value = ''" />
+            <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+            <input type="button" value=" = " class = "custome" id="result" />
+            <input type="button" value=" / " class = "custome" onclick="calculator.answer.value += '/'" />
+            </br>
+
+
+          </form>
+
+        </div>
+        <footer>
+          <p>Made with <i class="fa fa-heart red" aria-hidden="true"></i> By <strong>Ma'zon<strong></p>
+            <p class="lin"><a href="https://www.freecodecamp.org/mohamedhesham" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a><a href="https://github.com/MohamedHesham" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a><a href="https://www.facebook.com/MAlmaazoon" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></p>
+        </footer>
+      <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

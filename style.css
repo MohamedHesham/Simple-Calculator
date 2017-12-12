@@ -1,0 +1,87 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: #F4FFE0;
+
+}
+
+#calc-contain {
+  margin-top: 10%;
+  /*border: 1px solid red;*/
+  display: inline-block;
+  padding: 0;
+}
+
+input {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #88F159;
+  border: 1px solid #B7EF9C;
+}
+input[type="button"]:hover {
+  background-color: #B7EF9C;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
+input[type="text"]{
+  background-color: #B7EF9C;
+  font-style: italic;
+  /*color: #FC575E;*/
+}
+input[type="button"]:active {
+  background-color: #FC575E;
+
+}
+
+input[value=' c '] {
+  background-color: #FC575E;
+}
+.custome {
+  color: #FC575E;
+  font-weight: 500;
+  /*border: 2px solid #FC575E;*/
+}
+input[value=' = '] {
+  color: #FC575E;
+  font-weight: 500;
+  border: 2px solid #FC575E;
+  /*font-size: 20px;*/
+  /*font-size: 20px;*/
+}
+
+input[type="button"] {
+  padding: 10px;
+  width: 40px;
+}
+form {
+  /*text-align: center;*/
+  border: 3px solid #B7EF9C;
+  /*border: 2px solid #FC575E;*/
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 9%;
+  /*color: white;*/
+}
+.red {
+  color: #FC575E;
+}
+.lin a {
+  text-decoration: none;
+  color: #FC575E;
+  margin-left: 10px;
+  font-size: 25px;
+}
+.lin a:hover {
+  color: #88F159;
+}
+.lin a:focus {
+  outline: none;
+}
